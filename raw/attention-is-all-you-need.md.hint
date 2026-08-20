@@ -1,0 +1,7 @@
+# source Attention Is All You Need {#source_vaswani_2017}
+
+Vaswani et al., 2017, arXiv:1706.03762. The local Markdown file is an immutable excerpt used by this demo.
+
+# claim Transformer removes recurrence from sequence transduction {#claim_no_recurrence}
+
+The source explicitly describes an architecture based solely on attention mechanisms. Confidence: high for the architecture proposed by this paper.

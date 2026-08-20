@@ -1,0 +1,11 @@
+# concept Self-attention {#self_attention}
+
+A mechanism that lets positions in a sequence weight information from other positions.
+
+# claim Attention supports direct token interactions {#claim_direct_interactions}
+
+Evidence: `raw/attention-is-all-you-need.md` and `{#source_vaswani_2017}`. The proposed Transformer uses attention rather than recurrence for sequence transduction. Confidence: high for the proposed architecture.
+
+# relates wiki/transformers
+
+Self-attention is a core Transformer component.

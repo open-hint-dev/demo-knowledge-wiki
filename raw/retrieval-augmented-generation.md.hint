@@ -1,0 +1,7 @@
+# source Retrieval-augmented generation excerpt {#source_rag}
+
+Local immutable excerpt describing retrieval as external context for a parametric model.
+
+# claim Retrieval exposes supporting context {#claim_retrieval_context}
+
+Evidence: `raw/retrieval-augmented-generation.md`. Retrieval can surface documents used for an answer; it does not by itself prove the answer is correct. Confidence: high for the mechanism, conditional for answer quality.

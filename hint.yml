@@ -1,0 +1,6 @@
+name: transformer-knowledge-wiki
+description: A source-grounded HINT knowledge repository about transformer models.
+repo: knowledge
+refs_depth: 2
+books:
+  - npm://@openhint/hintbook-librarian

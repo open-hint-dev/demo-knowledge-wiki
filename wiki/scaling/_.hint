@@ -1,0 +1,15 @@
+# concept Language-model scaling {#language_model_scaling}
+
+Empirical relationships between loss and model size, dataset size, and training compute.
+
+# claim Scaling results are regime-bound {#claim_scaling_regime}
+
+Evidence: `{#source_scaling_laws}` and `{#claim_power_laws}`. Extrapolation beyond measured ranges is an inference, not a source fact. Confidence: high.
+
+# openquestion Limits of power-law extrapolation {#question_scaling_limits}
+
+Which architectural, data-quality, or deployment constraints cause the measured relationships to break? Resolve only with evidence spanning those regimes.
+
+# relates wiki/transformers
+
+The architecture family whose language-model behavior is being scaled.

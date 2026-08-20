@@ -1,0 +1,7 @@
+# source Transformer survey {#source_transformer_survey}
+
+Local immutable survey excerpt summarizing the main architectural components.
+
+# claim Transformer blocks compose several mechanisms {#claim_block_composition}
+
+The excerpt names self-attention, positional information, residual connections, normalization, and feed-forward layers. Confidence: high within this source's scope.

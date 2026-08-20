@@ -1,0 +1,19 @@
+# concept Transformer architecture {#transformer_architecture}
+
+A sequence architecture composing attention, position information, feed-forward transformations, residual paths, and normalization.
+
+# claim Recurrence is not required by the original architecture {#claim_transformer_recurrence}
+
+Evidence: `{#source_vaswani_2017}` and `{#claim_no_recurrence}`. Confidence: high for the original Transformer; later hybrid architectures may reintroduce recurrence.
+
+# claim A Transformer is more than attention alone {#claim_more_than_attention}
+
+Evidence: `{#source_transformer_survey}` and `{#claim_block_composition}`. Confidence: high.
+
+# relates wiki/attention
+
+The mechanism at the center of the architecture.
+
+# relates wiki/scaling
+
+Scaling describes observed behavior as models, data, and compute grow.

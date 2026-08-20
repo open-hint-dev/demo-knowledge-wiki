@@ -1,0 +1,7 @@
+# source Scaling laws excerpt {#source_scaling_laws}
+
+Local immutable excerpt about empirical language-model scaling relationships.
+
+# claim Loss follows empirical power laws in studied ranges {#claim_power_laws}
+
+Evidence: `raw/scaling-laws.md`. This is empirical and range-bound, not a universal physical law. Confidence: high for the reported experimental regimes.

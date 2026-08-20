@@ -1,0 +1,15 @@
+# concept Retrieval-augmented generation {#retrieval_augmented_generation}
+
+Generation conditioned on documents retrieved from an external corpus in addition to parametric model state.
+
+# claim Retrieval and model memory are distinct knowledge channels {#claim_two_channels}
+
+Evidence: `{#source_rag}` and `{#claim_retrieval_context}`. Retrieved context can be inspected and changed without retraining model weights. Confidence: high for the architectural distinction.
+
+# openquestion Citation fidelity {#question_citation_fidelity}
+
+Under what conditions does a generated answer faithfully reflect the retrieved evidence rather than merely cite it? Requires answer-level evaluation; retrieval alone does not resolve it.
+
+# relates wiki/transformers
+
+Transformer language models are commonly used as the parametric generator.

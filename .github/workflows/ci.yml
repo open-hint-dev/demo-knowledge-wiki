@@ -1,0 +1,22 @@
+name: Knowledge graph
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - run: npx -y @openhint/cli@^1.4.0 add --local @openhint/hintbook-librarian
+      - run: npx -y @openhint/cli@^1.4.0 apply --check
+      - run: npx -y @openhint/cli@^1.4.0 lint . --strict-graph

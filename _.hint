@@ -1,0 +1,11 @@
+# concept Transformer knowledge index {#transformer_wiki}
+
+This repository records source-grounded knowledge about transformer language models. Topic claims cite immutable files under `raw/`; uncertainty remains explicit.
+
+# relates wiki/transformers
+
+Architecture overview and the hub of this topic graph.
+
+# relates wiki/retrieval-augmented-generation
+
+How models use knowledge outside their parameters.
