@@ -1,6 +1,6 @@
 # Transformer knowledge wiki
 
-A small, real knowledge repository demonstrating [`@openhint/hintbook-librarian`](https://github.com/open-hint/hintbook-librarian): four immutable sources, interlinked topics, evidence-backed claims, open questions, and deterministic graph lint.
+A small, real knowledge repository demonstrating [`@openhint/hintbook-librarian`](https://github.com/open-hint-dev/hintbook-librarian): four immutable sources, interlinked topics, evidence-backed claims, open questions, and deterministic graph lint.
 
 ```bash
 npx -y @openhint/cli search "why attention replaced recurrence"
